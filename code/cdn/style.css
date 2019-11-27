@@ -1,0 +1,32 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #333;
+  background-color: #444;
+}
+
+#wrap {
+  width: 480px;
+  padding: 1rem;
+  background-color: #fafafa;
+  border-radius: 4px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 1.8rem;
+  margin: 0 0 1rem 0;
+}
+
+p {
+  margin: 0;
+  font-size: 1.2rem;
+}
