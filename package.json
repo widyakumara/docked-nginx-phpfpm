@@ -1,0 +1,15 @@
+{
+  "name": "docked.mvp",
+  "version": "0.0.0",
+  "author": "Dewa M. Widyakumara <widyakumara@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev": "docker-compose up --force-recreate",
+    "up": "docker-compose up --force-recreate --no-start",
+    "down": "docker-compose down",
+    "start": "docker-compose start",
+    "stop": "docker-compose stop",
+    "restart": "docker-compose restart"
+  }
+}
